@@ -1,3 +1,8 @@
+
+header {
+    background-color: brown;
+}
+
 main {
     background-color: gold;
 }
@@ -12,4 +17,8 @@ section{
 
 p {
     color: white;
+}
+
+footer {
+    background-color: blueviolet;
 }
