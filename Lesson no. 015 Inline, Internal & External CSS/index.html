@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inline, Internal & External CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            background-color: gold;
+            color: azure;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header style="color: white; background-color: red;">
+        <p>Inline CSS, while not ideal for all situations, is primarily used to apply a unique style to a single HTML element, providing specific control and the highest priority over other CSS types.</p>
+    </header>
+    <main>
+        <article>
+            <p>Internal CSS is mainly used when a single HTML page needs a unique style that shouldn't be applied to other pages on the website.</p>
+        </article>
+    </main>
+    <footer>
+        <p>External CSS is primarily used for maintainability, consistency, and performance, especially on multi-page websites. Storing all styles in a single file allows efficient site design management.</p>
+    </footer>
 </body>
+
 </html>
