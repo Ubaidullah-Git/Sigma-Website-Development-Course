@@ -20,7 +20,7 @@ div>article {
 
 /* Descendant Selector  */
 div p {
-    color: purple;
+    color: brown;
 }
 
 /* Universal Selector */
