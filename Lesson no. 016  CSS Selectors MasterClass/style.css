@@ -1,0 +1,55 @@
+/* Element Selector  */
+div {
+    background-color: burlywood;
+}
+
+/* Class Selector  */
+.graphite {
+    background-color: skyblue;
+}
+
+/* Id Selector */
+#green {
+    background-color: gold;
+}
+
+/* Child Selectors  */
+div>article {
+    background-color: seagreen;
+}
+
+/* Descendant Selector  */
+div p {
+    color: purple;
+}
+
+/* Universal Selector */
+* {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Pseudo Selector  */
+a:visited {
+    color: orange
+}
+
+a:link {
+    color: green;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:hover {
+    color: purple;
+}
+
+a{
+    background-color: aquamarine;
+}
+
+p:first-child {
+    background-color: khaki;
+}
